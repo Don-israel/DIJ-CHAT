@@ -544,7 +544,7 @@ app.post("/api/auth/logout", requireAuth, (req, res) => {
     res.json({ success: true });
   });
 });
-
+require("./profiles")(app, db, requireAuth);
 // ==================================================
 // USER SEARCH
 // ==================================================
