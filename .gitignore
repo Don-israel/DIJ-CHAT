@@ -1,0 +1,6 @@
+
+node_modules/
+.env
+dijchat.db
+dijchat.db-shm
+dijchat.db-wal
